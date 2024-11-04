@@ -1,26 +1,80 @@
-h2{
-    color:orange;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #305050;
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
     color: white;
-    font-family: Roboto;
+    padding: 20px;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+.texto-inglês {
+    font-weight: bold;
+    color: #3b3b98;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     text-align: center;
 }
 
-header{
-    border-bottom: 1px solid grey;
+footer p {
+    font-size: 0.9em;
 }
 
-footer{
-    border-top: 1px solid grey;
-}
-
-#nome-usuário{
-    font-weight: bold;
-}
-
-.texto-inglês{
-    font-style: italic;
-}
